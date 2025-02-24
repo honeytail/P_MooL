@@ -181,39 +181,6 @@ export default function Dashboard() {
         {/* Activities */}
         <Card className="p-6">
           <h2 className="text-lg font-semibold mb-4">environmental data</h2>
-          <div className="space-y-6">
-            <div className="flex gap-4">
-              <Avatar>
-                <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-uTDYVrVnI78ozBZPRnbFLGPxiL1e7h.png"
-                  alt="Francisco"
-                />
-              </Avatar>
-              <div>
-                <div className="flex items-center gap-2">
-                  <Badge variant="secondary" className="bg-green-100 text-green-700">
-                    New Invoice
-                  </Badge>
-                </div>
-                <p className="mt-1">
-                  <span className="font-medium">Francisco Gibbs</span> created invoice PQ-4491C
-                </p>
-                <p className="text-sm text-gray-500">Just Now</p>
-              </div>
-            </div>
-            <div className="flex gap-4">
-              <div className="p-2 bg-yellow-100 rounded-full h-fit">
-                <FileText className="w-4 h-4 text-yellow-600" />
-              </div>
-              <div>
-                <p>
-                  Invoice <span className="font-medium">JL-3432B</span> reminder was sent to{" "}
-                  <span className="font-medium">Chester Corp</span>
-                </p>
-                <p className="text-sm text-gray-500">Friday, 12:26PM</p>
-              </div>
-            </div>
-          </div>
         </Card>
 
         {/* Recent Invoices */}
@@ -234,7 +201,7 @@ export default function Dashboard() {
                 <TableCell>1</TableCell>
                 <TableCell>13 Feb, 2025</TableCell>
                 <TableCell>24.3</TableCell>
-                <TableCell>$ 2,450</TableCell>
+                <TableCell>7</TableCell>
                 <TableCell>7</TableCell>
               </TableRow>
               <TableRow>
